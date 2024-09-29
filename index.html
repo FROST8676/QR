@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Stylish QR Code Generator">
+    <meta name="keywords" content="QR Code, Generator, Stylish">
+    <meta name="author" content="Your Name">
+    <title>Stylish QR Code Generator</title>
+    <!-- Include QRious Library -->
+    <script src="https://cdn.jsdelivr.net/npm/qrious@4.0.2/dist/qrious.min.js"></script>
+    <!-- CSS for Styling -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>QR Code Generator</h1>
+        <div class="qr-container">
+            <canvas id="qr-code"></canvas>
+        </div>
+        <div class="form-container">
+            <input type="text" id="qr-input" placeholder="Enter text or URL">
+            <button id="generate-btn">Generate QR Code</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
